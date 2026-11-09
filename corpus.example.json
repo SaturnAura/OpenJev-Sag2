@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sage-1",
+    "title": "Retrieval-Augmented Generation",
+    "text": "Retrieval-augmented generation combines a document retriever with a language model."
+  },
+  {
+    "id": "sage-2",
+    "title": "SAG2",
+    "text": "SAG2 uses an evidence judge to expand and rerank retrieval candidates across multiple hops."
+  },
+  {
+    "id": "sage-3",
+    "title": "Diversity Ranking",
+    "text": "Determinantal point processes can balance relevance and diversity in a ranked result list."
+  }
+]
+

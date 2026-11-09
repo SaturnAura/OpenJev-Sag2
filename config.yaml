@@ -1,0 +1,9 @@
+# Runtime defaults for scripts.main. Dataset settings live in scripts.evaluate_sagdata.
+search:
+  candidate_k: 100
+  seed_k: 10
+  max_hops: 2
+  expansion_term_limit: 20
+  top_k: 10
+  chunk_chars: 1500
+

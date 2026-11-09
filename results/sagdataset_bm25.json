@@ -1,0 +1,887 @@
+{
+  "system": "bm25",
+  "datasets": {
+    "2WikiMultiHopQA": {
+      "dataset": "2WikiMultiHopQA",
+      "queries": 20,
+      "ndcg@10": 0.7974768929037246,
+      "recall@2": 0.7,
+      "recall@10": 0.875,
+      "mrr@10": 0.9099999999999999,
+      "index_seconds": 0.029583299532532692,
+      "query_seconds": 0.005338400602340698,
+      "query_ms_p50": 0.25150005239993334,
+      "query_ms_p95": 0.35720004234462976,
+      "queries_detail": [
+        {
+          "query_id": "129b312e0baf11ebab90acde48001122",
+          "question": "Who is Sir William Gore, 3Rd Baronet's paternal grandfather?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.430624116386567,
+            "recall@2": 0.0,
+            "recall@10": 1.0,
+            "mrr@10": 0.2
+          },
+          "index_seconds": 0.002365599968470633,
+          "query_seconds": 0.00035720004234462976
+        },
+        {
+          "query_id": "1d80ee9c0bde11eba7f7acde48001122",
+          "question": "Who is the mother of the composer of film 404 (Film)?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.6131471927654584,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0011905999854207039,
+          "query_seconds": 0.00017140002455562353
+        },
+        {
+          "query_id": "1ec26957097d11ebbdb0ac1f6bf848b6",
+          "question": "Which film came out earlier, Subliminal Seduction or Australia Marches With Britain?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0015665999380871654,
+          "query_seconds": 0.0003453000681474805
+        },
+        {
+          "query_id": "23123578085a11ebbd5cac1f6bf848b6",
+          "question": "Which film has the director died later, When The Mother And The Daughter or Paigham?",
+          "relevant": 4,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.787702056960637,
+            "recall@2": 1.0,
+            "recall@10": 0.75,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0018216000171378255,
+          "query_seconds": 0.0002893999917432666
+        },
+        {
+          "query_id": "481c76fa0baf11ebab90acde48001122",
+          "question": "Who is the paternal grandfather of Guntislo Galíndez?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0014722999185323715,
+          "query_seconds": 0.0002625000197440386
+        },
+        {
+          "query_id": "49e3c4e008c911ebbd92ac1f6bf848b6",
+          "question": "Which film has the director died later, Morecambe Church Lads' Brigade At Drill or Anne Against The World?",
+          "relevant": 4,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9349366583346498,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0018365000141784549,
+          "query_seconds": 0.0002492999192327261
+        },
+        {
+          "query_id": "599dd07c0baf11ebab90acde48001122",
+          "question": "Who is the paternal grandmother of Princess Alexandrine Of Prussia (1842–1906)?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.7903864795495061,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.001130299991928041,
+          "query_seconds": 0.0002465000143274665
+        },
+        {
+          "query_id": "59ad2d780bdd11eba7f7acde48001122",
+          "question": "Who is the spouse of the director of film The Imp (1919 Film)?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0010213999776169658,
+          "query_seconds": 0.0001610000617802143
+        },
+        {
+          "query_id": "5c0e77a60bd911eba7f7acde48001122",
+          "question": "What is the place of birth of the director of film Huey Long (Film)?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.38685280723454163,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 0.5
+          },
+          "index_seconds": 0.0009698999347165227,
+          "query_seconds": 0.00032540003303438425
+        },
+        {
+          "query_id": "6363f1b20bdd11eba7f7acde48001122",
+          "question": "Which country the composer of film Sergeant Hassan is from?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.7903864795495061,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0010626999428495765,
+          "query_seconds": 0.0002164000179618597
+        },
+        {
+          "query_id": "67a6a97e0bdb11eba7f7acde48001122",
+          "question": "What nationality is Iulla Antonia's father?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.002044500084593892,
+          "query_seconds": 0.00021959992591291666
+        },
+        {
+          "query_id": "7ea99e4c08a211ebbd7aac1f6bf848b6",
+          "question": "Do both films Across The Badlands and A Gutter Magdalene have the directors that share the same nationality?",
+          "relevant": 4,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.7030861797445797,
+            "recall@2": 0.5,
+            "recall@10": 0.75,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0010759999277070165,
+          "query_seconds": 0.00018620002083480358
+        },
+        {
+          "query_id": "94eba4ce0bdc11eba7f7acde48001122",
+          "question": "Where was the husband of Jeanne-Marie Grandon born?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.6131471927654584,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0009251999435946345,
+          "query_seconds": 0.00020940008107572794
+        },
+        {
+          "query_id": "95a4cbf20baf11ebab90acde48001122",
+          "question": "Who is the father-in-law of Deuteria?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.6131471927654584,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0017564999870955944,
+          "query_seconds": 0.0001732000382617116
+        },
+        {
+          "query_id": "ab7a6d920baf11ebab90acde48001122",
+          "question": "Who is the uncle of James Fitzgerald, 6Th Earl Of Desmond?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.5640920940185894,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 0.5
+          },
+          "index_seconds": 0.002086999942548573,
+          "query_seconds": 0.0003258000360801816
+        },
+        {
+          "query_id": "b62550940bdd11eba7f7acde48001122",
+          "question": "Where did Princess Catherine Of Schleswig-Holstein-Sonderburg-Beck's father die?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0020839000353589654,
+          "query_seconds": 0.0002539000706747174
+        },
+        {
+          "query_id": "c3fcf75008cf11ebbd95ac1f6bf848b6",
+          "question": "Which film whose director was born first, The Disciplined Woman or Captain Pirate?",
+          "relevant": 4,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9267582364714126,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.000941299949772656,
+          "query_seconds": 0.00025150005239993334
+        },
+        {
+          "query_id": "ce86d7c808ba11ebbd88ac1f6bf848b6",
+          "question": "Which film has the director who is older than the other, The Children Of The Feud or Indiana Jones And The Temple Of Doom? ",
+          "relevant": 4,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9558295932317544,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.001997999963350594,
+          "query_seconds": 0.0003331000916659832
+        },
+        {
+          "query_id": "dfee66b608c911ebbd92ac1f6bf848b6",
+          "question": "Are Falling In Love (1935 Film) and The Great Morgan both from the same country?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0012423000298440456,
+          "query_seconds": 0.00023340003099292517
+        },
+        {
+          "query_id": "f4aa6595093611ebbdaeac1f6bf848b6",
+          "question": "Which film was released earlier, Spy Of Napoleon or The Hairdresser'S Husband?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0009910999797284603,
+          "query_seconds": 0.0005279000615701079
+        }
+      ]
+    },
+    "HotpotQA": {
+      "dataset": "HotpotQA",
+      "queries": 20,
+      "ndcg@10": 0.9561792489470914,
+      "recall@2": 0.825,
+      "recall@10": 1.0,
+      "mrr@10": 0.975,
+      "index_seconds": 0.04090590006671846,
+      "query_seconds": 0.0066868000430986285,
+      "query_ms_p50": 0.3111000405624509,
+      "query_ms_p95": 0.48909999895840883,
+      "queries_detail": [
+        {
+          "query_id": "5a74167455429929fddd83dc",
+          "question": "On which continent did Pia Miller make her appearance, in the teen magazine, Dolly?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.6052602440527057,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 0.5
+          },
+          "index_seconds": 0.002344600041396916,
+          "query_seconds": 0.00026739994063973427
+        },
+        {
+          "query_id": "5a74f5155542993748c89750",
+          "question": "What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0022872000699862838,
+          "query_seconds": 0.0003307999577373266
+        },
+        {
+          "query_id": "5a79db655542994bb94570f4",
+          "question": "When was the younger brother of Ervin Randle born?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.002633900032378733,
+          "query_seconds": 0.00026679993607103825
+        },
+        {
+          "query_id": "5a7b735c5542997c3ec9718a",
+          "question": "The Toyota FJ Cruiser is built by this Toyota subsidiary which is a leading producer of what type of trucks in Asia?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0031528000254184008,
+          "query_seconds": 0.00048749998677521944
+        },
+        {
+          "query_id": "5a7cad635542996dd594b97f",
+          "question": "Who is older, Tarryl Lynn Clark or Michele Marie Bachmann?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0020131999626755714,
+          "query_seconds": 0.0003111000405624509
+        },
+        {
+          "query_id": "5a7d6a2d5542991319bc93c6",
+          "question": "King of Norway Magnus Barefoot launched aggressive military campaigns in this region that was at times independent of external control and was known to the Norse as what?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.002579999971203506,
+          "query_seconds": 0.00036910001654177904
+        },
+        {
+          "query_id": "5a8a40015542996c9b8d5e72",
+          "question": "Which television series was part of Cartoon Network's 2017 April Fools' prank and had a song by Justin Roiland played during the third season of the same show?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0026526000583544374,
+          "query_seconds": 0.0004890999989584088
+        },
+        {
+          "query_id": "5a8a7d2b55429930ff3c0dfc",
+          "question": "Are the flowering plants Ecballium and Elatostema in the same family?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0016348999924957752,
+          "query_seconds": 0.00028819998260587454
+        },
+        {
+          "query_id": "5a8affca55429971feec45e3",
+          "question": " Cliburn railway station was a station situated on This railway that  ran between Clifton Junction near Penrith and Kirkby Stephen via what?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0016371000092476606,
+          "query_seconds": 0.00029150000773370266
+        },
+        {
+          "query_id": "5a8ba45b554299240d9c2051",
+          "question": "Creation Entertainment is located in a city with what estimated 2014 population?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.001868800027295947,
+          "query_seconds": 0.00027219997718930244
+        },
+        {
+          "query_id": "5a8d5ec2554299585d9e37c4",
+          "question": "Are Lycoris and Ammi both native to southern Asia?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.002047399990260601,
+          "query_seconds": 0.00042639998719096184
+        },
+        {
+          "query_id": "5a8ed30655429917b4a5bdcd",
+          "question": "The Amsterdam Tournament 2009 was contested by what club that plays their home games at the Wanda Metropolitano?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.001650199992582202,
+          "query_seconds": 0.00029499991796910763
+        },
+        {
+          "query_id": "5ab322b1554299194fa93570",
+          "question": "Which type of character is featured by the P.L. Travers's third book and last novel in the \"Mary Poppins\" series?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0015332000330090523,
+          "query_seconds": 0.000317899975925684
+        },
+        {
+          "query_id": "5ab4f7fc5542991779162d43",
+          "question": "Kete Krachi is a town in what region?",
+          "relevant": 2,
+          "candidate_documents": 4,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0007861999329179525,
+          "query_seconds": 0.00016210007015615702
+        },
+        {
+          "query_id": "5ab6bb575542995eadef0088",
+          "question": "This radio programme that originally aired from October 1995 to April 2000 starred a critic working in what field?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.001694299979135394,
+          "query_seconds": 0.0002859000815078616
+        },
+        {
+          "query_id": "5abd9b5255429924427fd06a",
+          "question": "What is the current model of the iconic mascot co-created by Harold Bell?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.001824700040742755,
+          "query_seconds": 0.00024850002955645323
+        },
+        {
+          "query_id": "5abdc8e755429965af743e3f",
+          "question": "Ist das Ihr Fahrrad Mr O’Brien? is a German biographical radio play about life, works and legacy of an Irish novelist whose many satrical columns were written under what name?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0014912999467924237,
+          "query_seconds": 0.0005589000647887588
+        },
+        {
+          "query_id": "5adbfb3f55429947ff17388a",
+          "question": "What award was won by Niels Henrik David Bohr, a Danish physicist who established the Nordic Institute for Theoretical Physics?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.002155900001525879,
+          "query_seconds": 0.00033790001180022955
+        },
+        {
+          "query_id": "5ade15a45542997545bbbe46",
+          "question": "Are both Upper Crust Pizzeria and Eatza Pizza restaurants?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.00219409994315356,
+          "query_seconds": 0.00040900008752942085
+        },
+        {
+          "query_id": "5ae00b9f554299025d62a3c3",
+          "question": "What former Los Angeles Lakers majority owner is the father of Jeanie Marie Buss?",
+          "relevant": 2,
+          "candidate_documents": 10,
+          "bm25": {
+            "ndcg@10": 1.0,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.002723500016145408,
+          "query_seconds": 0.0002714999718591571
+        }
+      ]
+    },
+    "MuSiQue": {
+      "dataset": "MuSiQue",
+      "queries": 20,
+      "ndcg@10": 0.5989279270830618,
+      "recall@2": 0.5,
+      "recall@10": 0.6375,
+      "mrr@10": 0.7972222222222222,
+      "index_seconds": 0.06902339973021299,
+      "query_seconds": 0.008382000494748354,
+      "query_ms_p50": 0.41740003507584333,
+      "query_ms_p95": 0.5946999881416559,
+      "queries_detail": [
+        {
+          "query_id": "2hop__227031_144857",
+          "question": "What is the name of the city where Tess Gallagher's spouse was born in?",
+          "relevant": 2,
+          "candidate_documents": 19,
+          "bm25": {
+            "ndcg@10": 0.0,
+            "recall@2": 0.0,
+            "recall@10": 0.0,
+            "mrr@10": 0.0
+          },
+          "index_seconds": 0.0032680999720469117,
+          "query_seconds": 0.00035340001340955496
+        },
+        {
+          "query_id": "2hop__341176_711757",
+          "question": "What other district is found in the same county as Gmina Stężyca?",
+          "relevant": 2,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.6131471927654584,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0017452000174671412,
+          "query_seconds": 0.0002484000287950039
+        },
+        {
+          "query_id": "2hop__488811_30078",
+          "question": "What military overran much of Erich Zakowski's place of birth?",
+          "relevant": 2,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.0,
+            "recall@2": 0.0,
+            "recall@10": 0.0,
+            "mrr@10": 0.0
+          },
+          "index_seconds": 0.00260930007789284,
+          "query_seconds": 0.00027630000840872526
+        },
+        {
+          "query_id": "2hop__54651_169233",
+          "question": "What award did the singer of Never Had a Friend Like Me in Aladdin receive?",
+          "relevant": 2,
+          "candidate_documents": 18,
+          "bm25": {
+            "ndcg@10": 0.6131471927654584,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.003117999993264675,
+          "query_seconds": 0.000381499994546175
+        },
+        {
+          "query_id": "2hop__59612_42352",
+          "question": "How many people were in British Colonies where does the london broil cut come from ?",
+          "relevant": 2,
+          "candidate_documents": 17,
+          "bm25": {
+            "ndcg@10": 0.7903864795495061,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0035958000225946307,
+          "query_seconds": 0.0004486000398173928
+        },
+        {
+          "query_id": "2hop__735014_83837",
+          "question": "Who sings Home Alone Tonight with the singer of \"I Don't Want This Night to End\"?",
+          "relevant": 2,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.8175295903539445,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0032198999542742968,
+          "query_seconds": 0.00041740003507584333
+        },
+        {
+          "query_id": "2hop__82766_67668",
+          "question": "The actor playing Barney in How I Met Your Mother played who in Batman Under The Red Hood?",
+          "relevant": 2,
+          "candidate_documents": 15,
+          "bm25": {
+            "ndcg@10": 0.9197207891481876,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0038828999968245625,
+          "query_seconds": 0.0004822000628337264
+        },
+        {
+          "query_id": "2hop__88834_425488",
+          "question": "Who is the mother of the person who plays Nim in Return to Nim's Island?",
+          "relevant": 2,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.6131471927654584,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.003693099948577583,
+          "query_seconds": 0.0004194000503048301
+        },
+        {
+          "query_id": "2hop__91713_289940",
+          "question": "What team is the player who led the league in sacks in 2017 a member of?",
+          "relevant": 2,
+          "candidate_documents": 19,
+          "bm25": {
+            "ndcg@10": 0.3065735963827292,
+            "recall@2": 0.0,
+            "recall@10": 0.5,
+            "mrr@10": 0.3333333333333333
+          },
+          "index_seconds": 0.0038979999953880906,
+          "query_seconds": 0.0003383000148460269
+        },
+        {
+          "query_id": "3hop1__109196_720914_27537",
+          "question": "Why did Roncali leave the place of death of the creator of Malchiostro Annunciation?",
+          "relevant": 3,
+          "candidate_documents": 19,
+          "bm25": {
+            "ndcg@10": 0.617319681505689,
+            "recall@2": 0.5,
+            "recall@10": 0.6666666666666666,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0028867999790236354,
+          "query_seconds": 0.0003917000722140074
+        },
+        {
+          "query_id": "3hop1__127716_157828_239539",
+          "question": "Where is the headquarter of the Radio Television of the country whose co-official language is the same as the one Politika is written in?",
+          "relevant": 3,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.5307212739772434,
+            "recall@2": 0.5,
+            "recall@10": 0.6666666666666666,
+            "mrr@10": 0.5
+          },
+          "index_seconds": 0.0035587999736890197,
+          "query_seconds": 0.00037020002491772175
+        },
+        {
+          "query_id": "3hop1__140855_2053_52946",
+          "question": "When is Celebrity Big Brother coming to the network that, along with the original network of Then Came Bronson and ABC, is based in New York?",
+          "relevant": 3,
+          "candidate_documents": 19,
+          "bm25": {
+            "ndcg@10": 0.8385465274895063,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0028033999260514975,
+          "query_seconds": 0.00034280004911124706
+        },
+        {
+          "query_id": "3hop1__426806_42197_18397",
+          "question": "Where did who argued that the country of citizenship of Victor Denisov had itself beome an imperialist power declare that he would intervene in the Korean conflict?",
+          "relevant": 3,
+          "candidate_documents": 16,
+          "bm25": {
+            "ndcg@10": 0.9217868789962071,
+            "recall@2": 1.0,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.005435299943201244,
+          "query_seconds": 0.00044840003829449415
+        },
+        {
+          "query_id": "3hop1__622497_160088_85460",
+          "question": "What is the average salary of a working person with the same nationality as the producer of The Wild Women of Chastity Gulch?",
+          "relevant": 3,
+          "candidate_documents": 19,
+          "bm25": {
+            "ndcg@10": 0.6364391809889587,
+            "recall@2": 0.5,
+            "recall@10": 0.6666666666666666,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.00408790004439652,
+          "query_seconds": 0.0004290000069886446
+        },
+        {
+          "query_id": "3hop2__57233_11282_56883",
+          "question": "When was conscription introduced in country having Emus during the war setting The Things They Carried?",
+          "relevant": 3,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.8278123145308894,
+            "recall@2": 0.5,
+            "recall@10": 1.0,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0031455999705940485,
+          "query_seconds": 0.0002894999925047159
+        },
+        {
+          "query_id": "4hop1__130480_53706_795904_580996",
+          "question": "What shares a border with the city where someone worked who went to the state where Atwell Mill Grove is located during the gold rush?",
+          "relevant": 4,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.5855700749881525,
+            "recall@2": 0.5,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.003350999904796481,
+          "query_seconds": 0.0008024000562727451
+        },
+        {
+          "query_id": "4hop1__343844_17130_70784_61381",
+          "question": "When was the country established that lies immediately north of the Persian Gulf and the region where the country containing Urim is located?",
+          "relevant": 4,
+          "candidate_documents": 19,
+          "bm25": {
+            "ndcg@10": 0.11751610475642714,
+            "recall@2": 0.0,
+            "recall@10": 0.25,
+            "mrr@10": 0.1111111111111111
+          },
+          "index_seconds": 0.004779399954713881,
+          "query_seconds": 0.0004957000492140651
+        },
+        {
+          "query_id": "4hop1__571599_49925_13759_736921",
+          "question": "Where is the district that the person who wanted to reform and address Medardo Joseph Mazombwe's religion preached a sermon on Marian devotion before his death located?",
+          "relevant": 4,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.787702056960637,
+            "recall@2": 1.0,
+            "recall@10": 0.75,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0037110999692231417,
+          "query_seconds": 0.0005946999881416559
+        },
+        {
+          "query_id": "4hop1__842143_153080_159767_81096",
+          "question": "Who won the 1993 Indy Car Race in the largest city of the state containing the city where the performer of the album Mingus Three is from?",
+          "relevant": 4,
+          "candidate_documents": 20,
+          "bm25": {
+            "ndcg@10": 0.8048099750039491,
+            "recall@2": 1.0,
+            "recall@10": 0.75,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0030557001009583473,
+          "query_seconds": 0.0004781999159604311
+        },
+        {
+          "query_id": "4hop2__161602_474028_88460_18966",
+          "question": "Who brought the language Hokkien to the country on the natural boundary between the country that hosted the tournament and the country where A Don is from?",
+          "relevant": 4,
+          "candidate_documents": 18,
+          "bm25": {
+            "ndcg@10": 0.6366824387328317,
+            "recall@2": 1.0,
+            "recall@10": 0.5,
+            "mrr@10": 1.0
+          },
+          "index_seconds": 0.0031780999852344394,
+          "query_seconds": 0.0003739000530913472
+        }
+      ]
+    }
+  }
+}
